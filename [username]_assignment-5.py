@@ -24,3 +24,14 @@ for i in range(2, num-1):
 else:
     print(f"{num} is prime!")
 print()
+
+print("Multiplication Table:")
+for row in range(1,11):
+    print(f" {row:5}", end = "")
+
+for row in range(1,11):
+    print(f"\n{row:3}", end= "")
+    for col in range(1,11):
+        print(f"{(row * col):3}", end="")
+        print("   ", end="")
+
